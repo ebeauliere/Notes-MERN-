@@ -1,9 +1,18 @@
 import "./App.css";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import LandingPage from "./screens/LandingPage/LandingPage";
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to the Notes App</h1>
+      <>
+        <Header />
+        <main>
+          <LandingPage />
+        </main>
+        <Footer />
+      </>
     </div>
   );
 }
